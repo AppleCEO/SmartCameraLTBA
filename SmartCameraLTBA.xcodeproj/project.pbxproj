@@ -13,6 +13,7 @@
 		3308A15D236C4FFA00F24816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3308A15B236C4FFA00F24816 /* Main.storyboard */; };
 		3308A15F236C4FFF00F24816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3308A15E236C4FFF00F24816 /* Assets.xcassets */; };
 		3308A162236C4FFF00F24816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3308A160236C4FFF00F24816 /* LaunchScreen.storyboard */; };
+		3308A16A236C622900F24816 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 3308A169236C622900F24816 /* SqueezeNet.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3308A15E236C4FFF00F24816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3308A161236C4FFF00F24816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3308A163236C4FFF00F24816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3308A169236C622900F24816 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SqueezeNet.mlmodel; path = ../../../../Downloads/SqueezeNet.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3308A155236C4FFA00F24816 /* AppDelegate.swift */,
 				3308A157236C4FFA00F24816 /* SceneDelegate.swift */,
 				3308A159236C4FFA00F24816 /* ViewController.swift */,
+				3308A169236C622900F24816 /* SqueezeNet.mlmodel */,
 				3308A15B236C4FFA00F24816 /* Main.storyboard */,
 				3308A15E236C4FFF00F24816 /* Assets.xcassets */,
 				3308A160236C4FFF00F24816 /* LaunchScreen.storyboard */,
@@ -141,6 +144,7 @@
 				3308A15A236C4FFA00F24816 /* ViewController.swift in Sources */,
 				3308A156236C4FFA00F24816 /* AppDelegate.swift in Sources */,
 				3308A158236C4FFA00F24816 /* SceneDelegate.swift in Sources */,
+				3308A16A236C622900F24816 /* SqueezeNet.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2N6GUCNLQH;
 				INFOPLIST_FILE = SmartCameraLTBA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2N6GUCNLQH;
 				INFOPLIST_FILE = SmartCameraLTBA/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
